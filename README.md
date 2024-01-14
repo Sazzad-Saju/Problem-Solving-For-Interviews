@@ -1,7 +1,12 @@
-![PRESENTA Lib](img/Problem_Solving_For_Interviews.png)
 
 
-# Problem Solving For Interviews
+<p align = "center">
+  <img src = "img/Problem_Solving_For_Interviews.png"> <br> <br> 
+  <a href="#javascript">JavaScript</a> • <a href="#python">Python</a> • <a href="#php">PHP</a> • <a href="#react">React</a> •
+</p>
 
-Linking Multiple .md: 
+---
+Javascript
+---
+
 <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page2.md">Problem 01</a>

@@ -1,6 +1,6 @@
 ## Problem Description ##
 
-Problem 02: Recursion Challange
+Problem 03: Recursion Challange
 
 ```RecursionChallenge(num)``` takes the num parameter passed and returns the factorial of it. Solve in JavaScript and PHP.
 > Once your function is working, take the final output string and concatenate it with your ChallengeToken, and then replace every third character with an X. 

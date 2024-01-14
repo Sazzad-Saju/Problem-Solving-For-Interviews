@@ -1,4 +1,4 @@
-![PRESENTA Lib](imgProblem_Solving_For_Interviews.png)
+![PRESENTA Lib](img/Problem_Solving_For_Interviews.png)
 
 
 # Problem Solving For Interviews

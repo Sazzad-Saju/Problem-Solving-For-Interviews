@@ -32,7 +32,6 @@ function ArrayChallenge(strArr){
     for(let i=0; i<words.length; i++){
         const currentWord = words[i];
         const removedCount = getRemovedCount(targetWord, currentWord);
-        // console.log(removedCount)
         minRemoved = Math.min(minRemoved, removedCount)
     }
     

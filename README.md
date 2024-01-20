@@ -19,8 +19,4 @@ Javascript && PHP
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page9.md">Problem 07+: Make Palindrome </a>
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page10.md">Problem 08: Fibonacchi Series in Recursion </a>
 
----
-PHP
----
-* <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page3.md">Problem 02: Print Pattern Challenge</a>
-* <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page4.md">Problem 03: Recursion Challenge</a>
+

@@ -1,6 +1,6 @@
 ## Problem Description ##
 
-Problem 05: Valid Parenthesis
+Problem 06: Valid Parenthesis
 
 Take a string containing some parentheses. Verify if the parenthesis is closed in the correct order
 <br>

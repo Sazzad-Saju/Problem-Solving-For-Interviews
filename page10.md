@@ -1,18 +1,23 @@
 ## Problem Description ##
 
-Problem 08: Create a basic object
+Problem 08: Fibonacchi Series in Recursion
 
-Create a Car class. Use a constructor and a member function to return how old is that car.
+Simply get the nth value of a fibonacchi series. Solve the problem in recursive manner.
 
 <br>
 <h3> Example: </h3>
 
 ```
-Input: 'Ford', 2014
-Output: My car is 10 years old
+Input: 6
+Output: 8
 
 ```
 
+```
+Input: 7
+Output: 13
+
+```
 
 <br>
 

@@ -19,5 +19,6 @@ Javascript && PHP
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page9.md">Problem 07+: Make Palindrome </a>
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page10.md">Problem 08: Fibonacchi Series in Recursion </a>
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page11.md">Problem 09: Create a basic object </a>
+* <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page12.md">Problem 10: Show a basic inheritance </a>
 
 

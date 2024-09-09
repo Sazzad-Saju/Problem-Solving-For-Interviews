@@ -22,5 +22,7 @@ Javascript && PHP
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page12.md">Problem 10: Show a basic inheritance </a>
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page13.md">Problem 11: Polimorphism example </a>
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page14.md">Problem 12: Operator overloading basic </a>
+* <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page15.md">Problem 13: Write down the QuickSort Algo </a>
+* <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page16.md">Problem 14: Build a basic Linked List </a>
 
 

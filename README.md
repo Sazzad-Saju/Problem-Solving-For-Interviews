@@ -2,7 +2,7 @@
 
 <p align = "center">
   <img src = "img/Problem_Solving_For_Interviews.png"> <br> <br> 
-  <a href="#javascript">JavaScript</a> • <a href="#javascript">PHP</a> • <a href="#react">React</a> •
+  <a href="#javascript">JavaScript</a> • <a href="#javascript">PHP</a> •
 </p>
 
 ---

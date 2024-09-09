@@ -6,7 +6,7 @@ class Person{
         this.age = age;
     }
     info() {
-        console.log(`Name: ${this.firstName}, ${this.last_name} \nAge: ${this.age}`)
+        console.log(`Name: ${this.firstName} ${this.last_name} \nAge: ${this.age}`)
     }
 }
 

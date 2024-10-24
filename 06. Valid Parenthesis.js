@@ -1,5 +1,5 @@
 
-function checkParen(myStr){
+function checkParenOld(myStr){
     let stack = [];
     for (const paren of myStr){
         if(paren == '(' || paren == "{" || paren == "["){
@@ -24,6 +24,30 @@ function checkParen(myStr){
         console.log(myStr + " Contains invalid Parenthesis")
     }
 }
+
+
+//optimal solution
+function checkParen(str){
+    let stack = [];
+    let parenMap = {
+        ')': '(',
+        '}' : '{',
+        ']' : '['
+    };
+    
+    for(char of str){
+        if(char == '(' || char == '{' || char == '['){
+            stack.push(char)
+        }else if(char == ')' || char == '}' || char == ']'){
+            if(stack.length == 0 || stack.pop() !== parenMap[char]){
+                return false;
+            }
+        }
+    }
+    
+    return stack.length == 0;
+}
+
 
 checkParen("([)]")
 checkParen('(){()}')

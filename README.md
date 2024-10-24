@@ -2,7 +2,7 @@
 
 <p align = "center">
   <img src = "img/Problem_Solving_For_Interviews.png"> <br> <br> 
-  <a href="#javascript">JavaScript</a> • <a href="#javascript">PHP</a>
+  <a href="#javascript">JavaScript</a> • <a href="#javascript">PHP</a> • <a href="#doc">Documents </a>
 </p>
 
 ---
@@ -24,5 +24,11 @@ Javascript && PHP
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page14.md">Problem 12: Operator overloading basic </a>
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page15.md">Problem 13: Write down the QuickSort Algo </a>
 * <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/page16.md">Problem 14: Build a basic Linked List </a>
+
+---
+Documents
+---
+
+* <a href="https://docs.google.com/document/d/1dbza0C7aAMILgANIlUeu7xO1EtOCJO1UUDPAXMHAKEY/edit?usp=sharing">Code Explanation Documents</a>
 
 

@@ -1,29 +1,28 @@
 
-function checkParenOld(myStr){
-    let stack = [];
-    for (const paren of myStr){
-        if(paren == '(' || paren == "{" || paren == "["){
-            stack.push(paren)
-        }else{
-            if(!stack.length && (paren == ")" || paren == "}" || paren == "]")){
-                console.log(myStr +" Contains Invalid Parenthasis")
-                return;
-            }else{
-                let top = stack[stack.length -1]
-                if(top=="(" && paren== ")" || top=="{" && paren == "}" || top == "[" && paren == "]"){
-                    stack.pop()
-                }else if(paren == ")" || paren == "}" || paren == "]"){
-                    stack.push(paren)
-                }
-            }
-        }
-    }
-    if(!stack.length){
-        console.log(myStr + " Contains Valid Parenthesis")
-    }else{
-        console.log(myStr + " Contains invalid Parenthesis")
-    }
-}
+// function checkParen(myStr){
+//     let stack = [];
+//     for (const paren of myStr){
+//         if(paren == '(' || paren == "{" || paren == "["){
+//             stack.push(paren)
+//         }else{
+//             if(!stack.length && (paren == ")" || paren == "}" || paren == "]")){
+//                 return false;
+//             }else{
+//                 let top = stack[stack.length -1]
+//                 if(top=="(" && paren== ")" || top=="{" && paren == "}" || top == "[" && paren == "]"){
+//                     stack.pop()
+//                 }else if(paren == ")" || paren == "}" || paren == "]"){
+//                     stack.push(paren)
+//                 }
+//             }
+//         }
+//     }
+//     if(!stack.length){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
 
 
 //optimal solution
@@ -48,11 +47,13 @@ function checkParen(str){
     return stack.length == 0;
 }
 
+let paren = "([)]";
+// paren = '(){()}'
+// paren = '(x+y)+{y-z}'
+// paren = '[a2/b2 - {c*(a+b)}/2] + {d*(b-c)}'
+// paren = '{{}}()[()]'
+// paren = '{][}'
+// paren = ')'
 
-checkParen("([)]")
-checkParen('(){()}')
-checkParen('(x+y)+{y-z}')
-checkParen('[a2/b2 - {c*(a+b)}/2] + {d*(b-c)}')
-checkParen('{{}}()[()]')
-checkParen('{][}')
-checkParen(')')
+let result = checkParen(paren)
+console.log(result)

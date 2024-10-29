@@ -11,6 +11,20 @@ function rmvDupli($word){
     return $temp;
 }
 
+//optimal
+// function rmvDupli($word){
+//     $seen = [];
+//     $result = "";
+//     foreach(str_split($word) as $char){
+//         if(!isset($seen[$char])){
+//             $seen[$char] = true;
+//             $result .= $char;
+//         }
+//     }
+    
+//     return $result;
+// }
+
 $word = "abccddeffaaab";
 echo rmvDupli($word);
 

@@ -1,5 +1,6 @@
 <?php
 
+//old_solution
 function makePalindrome($myStr){
     if($myStr == strrev($myStr)){
         return $myStr;
@@ -32,11 +33,48 @@ function getPermutation($myStr){
     return $result;
 }
 
-$myStr = "abcab";
-$result = makePalindrome($myStr);
-if($result !== null){
-    echo "myStr= '{$myStr}' is palindrome when myStr= '$result'";
-}else{
-    echo "myStr='{$myStr}' can not make into palindrome";
+//Efficient
+function canFormPalindrome($myStr){
+    $freq = [];
+    
+    for($i=0; $i<strlen($myStr); $i++){
+        $char = $myStr[$i];
+        if(isset($freq[$char])){
+            $freq[$char]++;
+        }else{
+            $freq[$char] = 1;
+        }
+    }
+    
+    $oddCount = 0;
+    foreach($freq as $count){
+        if($count%2 !== 0){
+            $oddCount++;
+        }
+        if($oddCount > 1){
+            return false;
+        }
+    }
+    return true;
 }
+
+$myStr = 'abcab';
+if($myStr == strrev($myStr)){
+    echo $myStr . " is palindrome";
+}else{
+    $result = canFormPalindrome($myStr);
+    if($result){
+        echo $myStr . " can form into palindrome";
+    }else{ 
+        echo $myStr . " can not make palindrome";
+    }
+}
+
+// $myStr = "abcab";
+// $result = makePalindrome($myStr);
+// if($result !== null){
+//     echo "myStr= '{$myStr}' is palindrome when myStr= '$result'";
+// }else{
+//     echo "myStr='{$myStr}' can not make into palindrome";
+// }
 ?>

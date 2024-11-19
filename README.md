@@ -29,6 +29,6 @@ Javascript && PHP
 Documents
 ---
 
-* <a href="https://docs.google.com/document/d/1dbza0C7aAMILgANIlUeu7xO1EtOCJO1UUDPAXMHAKEY/edit?usp=sharing">Code Explanation Documents</a>
+* <a href="https://docs.google.com/document/d/1dbza0C7aAMILgANIlUeu7xO1EtOCJO1UUDPAXMHAKEY/edit?usp=sharing" target="_blank">Code Explanation Documents</a>
 
 

@@ -40,4 +40,10 @@ abstruct method add() of the parent class. <br>
 Also shows abstruct class concepts in js. Create class Bike and Vehicle, shows bike is an instance of vehicle also of itself. <br>
 Both code simulates the concept of abstruct class. 
 
+<br>
+
+> Both interfaces and abstract classes in PHP are related to polymorphism
+
+<br>
+
 > <a href="https://github.com/Sazzad-Saju/Problem-Solving-For-Interviews/blob/master/README.md">GOTO CONTENT</a>
